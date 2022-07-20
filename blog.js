@@ -168,6 +168,9 @@
 
     var read =document.createElement("h4");
     read.innerText=elem.read;
+     read.addEventListener('click', function(){
+         fun()
+      }) 
 
     box.append(imag,cata,nam,detail,read)
     document.querySelector("#container").append(box);
@@ -177,3 +180,7 @@
    }
 
    renderProducts()
+
+function fun(){
+    window.location.href = "detail.html"  
+  }
