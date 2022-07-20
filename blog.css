@@ -278,3 +278,52 @@ h1
                 margin-top:30px;
                 width:400px;
         } 
+     /* workoutTips.html related css */
+      #nav8{
+      display:flex;
+      justify-content: center;
+                             }
+     #nav8>a{
+    
+            height:30px;
+            width:auto;
+            font-size: 17px;
+            color:#3596FF;
+            background-color: white;
+            border-radius: 20px;
+            border:1px solid #3596FF;
+            text-decoration:none;
+            margin-left:20px;
+            padding:10px 10px 5px 10px;
+            margin-top:50px;
+            font-family: "Montserrat", Sans-serif;
+        }
+     #nav8>a:hover{
+            background-color:#3596FF ;
+            cursor:pointer;
+            color:white;
+        }
+     #exp1{
+            display: flex;
+            justify-content: center;
+            margin-top:30px;
+        }
+        #exp1>a{
+    
+            height:30px;
+            width:auto;
+            font-size: 17px;
+            background-color:#3596FF;
+            color: white;
+            border-radius: 20px;
+            border:1px solid #3596FF;
+            text-decoration:none;
+            padding:10px 10px 5px 10px;
+            font-family: "Montserrat", Sans-serif;
+        
+        }
+        #exp1>a:hover{
+           
+            cursor:pointer;
+           
+        }
