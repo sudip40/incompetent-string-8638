@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
     <link rel="icon" href="https://play-lh.googleusercontent.com/TjiO-8rt-cZ0jGt5yZkwpdVOoFNnTeZ4ACqFiFKEkhZ03KaSz6gp7P_lJUTNvSDfZRs">
+    <link rel="stylesheet" href="./css/all.css">
+
     <link rel="stylesheet" href="./navbar/navbar.css">
     <link rel="stylesheet" href="./HomePage.css">
     <link rel="stylesheet" href="./JetfitMembers.css">
+    <link rel="stylesheet" href="./footer/footer store links.css">
 
 </head>
 <body>
@@ -73,12 +80,40 @@
                 <img src="image1.png" class="sk_image">
             </div>
             <a href="google.com" role="button">JOIN NOW</a>
-            <!-- <button>JOIN NOW</button> -->
         </div>
     </div>
+
+
+    <span id="sk_s">JEFIT COVERS ALL OF YOUR WORKOUT NEEDS</span>
+    <div class="sk_needs">
+        <div class="sks_left">
+            <span>PERSONALIZE YOUR WORKOUT PLANS</span>
+            <p class="fa-solid fa-check">1400+ exercises with instructions</p>
+            <p class="fa-solid fa-check">Pro-designed workout plans</p>
+            <p class="fa-solid fa-check">Support custom exercises</p>                   
+            <p class="fa-solid fa-check">Flexible workout planning tool</p>
+            <a href="####" role="button">Sign up now</a>
+        </div>
+        <div class="sks_right">
+            <img src="https://cdn.jefit.com/wp/wp-content/uploads/2021/11/web_create-2-1024x1024.png.webp">
+        </div>
+    </div>
+
+
+
+    <div id="footer_links"></div>
 </body>
 </html>
-<script>
+<script type="module">
+
+    import footerLinks from "./footer/footer store links.js";
+    console.log(footerLinks());
+    document.getElementById("footer_links").innerHTML = footerLinks();
+
+
+
+
+
     let images = [
         "image1.png",
         "image2.png",
@@ -112,4 +147,27 @@
         console.log(i);
     }
     setInterval(slideShow,5000);
+
+
+
+
+
+    const gotopbtn = document.querySelector(".sk_gotopbtn");
+
+    window.addEventListener("scroll", checkHeight);
+
+    function checkHeight() {
+        if (window.scrollY > 200){
+            gotopbtn.style.display = "flex";
+        } else {
+            gotopbtn.style.display = "none";
+        }
+    }
+
+    gotopbtn.addEventListener("click", ()=> {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    })
 </script>
