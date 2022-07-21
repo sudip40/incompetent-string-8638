@@ -7,10 +7,13 @@
     <title>Document</title>
     <link rel="icon" href="https://play-lh.googleusercontent.com/TjiO-8rt-cZ0jGt5yZkwpdVOoFNnTeZ4ACqFiFKEkhZ03KaSz6gp7P_lJUTNvSDfZRs">
     <link rel="stylesheet" href="./navbar/navbar.css">
-    <link rel="stylesheet" href="./navbar/css/all.css">
+    <!-- <link rel="stylesheet" href="./navbar/css/all.css"> -->
     <link rel="stylesheet" href="./HomePage.css">
+    <link rel="stylesheet" href="./JetfitMembers.css">
+
 </head>
 <body>
+                        <!-- day-2 work -->
     <div id="navbar">
         <div id="sk_items">
             <div id="sk_logo">
@@ -53,5 +56,61 @@
         </div>
         
     </div>
+
+                        <!-- day-3 work jetfit Members-->
+    <div id="sk_member">
+        <div id="sk_member1">
+            <span>CONNECT WITH OVER 10 MILLION JEFIT MEMBERS</span>
+            <p>As the most active workout community, we invite you and your friends to join us and support each other. </p>
+            <div id="sk_slideShow">
+                <img src="image1.png" class="sk_image">
+                <img src="image1.png" class="sk_image">
+                <img src="image1.png" class="sk_image">
+                <img src="image1.png" class="sk_image">
+                <img src="image1.png" class="sk_image">
+                <img src="image1.png" class="sk_image">
+                <img src="image1.png" class="sk_image">
+                <img src="image1.png" class="sk_image">
+                <img src="image1.png" class="sk_image">
+            </div>
+            <a href="google.com" role="button">JOIN NOW</a>
+            <!-- <button>JOIN NOW</button> -->
+        </div>
+    </div>
 </body>
 </html>
+<script>
+    let images = [
+        "image1.png",
+        "image2.png",
+        "image3.png",
+        "image4.png",
+        "image5.png",
+        "image6.png",
+        "image7.png",
+        "image8.png",
+        "image9.png",
+        "image10.png",
+        "image11.png",
+        "image12.png",
+        "image13.png",
+        "image14.png",
+        "image15.png",
+        "image16.png",
+        "image17.png",
+        "image18.png",
+        "image19.png",
+        "image20.png",
+    ];
+    let i=0;
+    function slideShow() {
+        document.querySelector(".sk_image").src = images[i];
+        if (i<images.length-1){
+            i++;
+        } else {
+            i=0;
+        }
+        console.log(i);
+    }
+    setInterval(slideShow,5000);
+</script>
