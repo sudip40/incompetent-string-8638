@@ -1,0 +1,50 @@
+#sk_manage {
+    background-image: url("./caucasian-man-practicing-weightlifting-gym.jpg") ;
+    background-color: #0C0C0C;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#sk_pura{
+    height: 100%;
+    width: 61%;
+    margin: auto;
+    display: flex;
+}
+#sk_left p{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+#sk_left h2{
+    color: #FFFFFF;
+    font-family: "DM Sans", Sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+#sk_right, #sk_left {
+    margin-top: 18%;
+    height: 496px;
+    width: 596px;
+}
+#sk_right img{
+    height: 100%;
+}
+#sk_connect{
+    display: flex;
+    padding-right: 20px;
+}
+#sk_store{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#sk_store img:first-child {
+    margin-bottom: 20px;
+}
