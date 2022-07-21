@@ -1,0 +1,63 @@
+#sk_manage {
+    background-image: url("./images/caucasian-man-practicing-weightlifting-gym.jpg") ;
+    background-color: #0C0C0C;
+    /* border: 1px solid blue; */
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 810px; */
+    height: 100vh;
+}
+#sk_pura{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 61%;
+    margin: auto;
+    display: flex;
+}
+#sk_left p{
+    /* border: 1px solid pink; */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+#sk_left h2{
+    /* border: 1px solid; */
+    color: #FFFFFF;
+    font-family: "DM Sans", Sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-size: 27px;
+    /* height: 40px; */
+    /* margin-bottom: -30px; */
+    padding-bottom: 20px;
+}
+#sk_right, #sk_left {
+    margin-top: 18%;
+    height: 496px;
+    width: 596px;
+}
+#sk_right img{
+    /* border: 1px solid green; */
+    height: 100%;
+}
+#sk_connect{
+    /* border:  1px solid red; */
+    display: flex;
+    padding-right: 20px;
+    /* margin-top: 31px; */
+}
+#sk_store{
+    /* border: 1px solid pink; */
+    margin-left: 15px;
+    /* margin-bottom: 30px; */
+    margin-top: 10px;
+}
+#sk_store img:first-child {
+    /* border: 1px solid white; */
+    margin-bottom: 20px;
+}
