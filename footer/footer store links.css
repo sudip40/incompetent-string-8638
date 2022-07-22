@@ -41,6 +41,7 @@ margin-top: 60px;
     margin-bottom: 25px;
 }
 #footer_links{
+    /* border: 1px solid red; */
     background-color: #F2F6FF;
     padding-bottom: 50px;
     padding-top: 80px;
@@ -55,10 +56,9 @@ justify-content: center;
 padding-top: 50px;
 padding-bottom: 50px;
 background: black;
-/* background-image: url("https://th.bing.com/th/id/OIP.JrIXZg7UCXWhyfU9xo4m_QHaES?w=301&h=180&c=7&r=0&o=5&pid=1.7"); */
-/* background-repeat: no-repeat; */
-/* background-size: cover; */
-/* height: 100vh; */
+background-image: url("./footer\ bg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 #sk_rights{
     /* border: 1px solid red; */

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./HomePage.css">
     <link rel="stylesheet" href="./JetfitMembers.css">
     <link rel="stylesheet" href="./footer/footer store links.css">
+    <link rel="stylesheet" href="./elite/elite.css">
 
 </head>
 <body>
@@ -88,10 +89,10 @@
     <div class="sk_needs">
         <div class="sks_left">
             <span>PERSONALIZE YOUR WORKOUT PLANS</span>
-            <p class="fa-solid fa-check">1400+ exercises with instructions</p>
-            <p class="fa-solid fa-check">Pro-designed workout plans</p>
-            <p class="fa-solid fa-check">Support custom exercises</p>                   
-            <p class="fa-solid fa-check">Flexible workout planning tool</p>
+            <p><i class="fa-solid fa-check"></i>1400+ exercises with instructions</p>
+            <p><i class="fa-solid fa-check"></i>Pro-designed workout plans</p>
+            <p><i class="fa-solid fa-check"></i>Support custom exercises</p>
+            <p><i class="fa-solid fa-check"></i>Flexible workout planning tool</p>
             <a href="####" role="button">Sign up now</a>
         </div>
         <div class="sks_right">
@@ -99,16 +100,50 @@
         </div>
     </div>
 
+    <div class="sk_needs">
+        <div class="sks_right">
+            <img src="https://cdn.jefit.com/wp/wp-content/uploads/2022/03/web_train.webp">
+        </div>
+        <div class="sks_left">
+            <span>TRAIN & LOG SEAMLESSLY
+                IN GYM AND HOME</span>
+            <p><i class="fa-solid fa-check"></i>Log training with one-click</p>
+            <p><i class="fa-solid fa-check"></i>Control rest time easily</p>
+            <p><i class="fa-solid fa-check"></i>Available on mobile and watch</p>
+            <p><i class="fa-solid fa-check"></i>Audio and video instructions</p>
+            <a href="####" role="button">Sign up now</a>
+        </div>
+    </div>
 
+    <div class="sk_needs">
+        <div class="sks_left">
+            <span>VIEW PROGRESS &
+                REACH NEW LIMITS</span>
+            <p><i class="fa-solid fa-check"></i>Track workout time and weightlifting</p>
+            <p><i class="fa-solid fa-check"></i>Set target muscles and body size</p>
+            <p><i class="fa-solid fa-check"></i>Understand muscle recovery rate</p>
+            <p><i class="fa-solid fa-check"></i>Set 1RM goals and refresh records</p>
+            <a href="####" role="button">Sign up now</a>
+        </div>
+        <div class="sks_right">
+            <img src="https://cdn.jefit.com/wp/wp-content/uploads/2021/11/web_create-2-1024x1024.png.webp">
+        </div>
+    </div>
 
-    <div id="footer_links"></div>
+    <div id="sk_elite"></div>
+
+    <div id="footer"></div>
 </body>
 </html>
 <script type="module">
 
     import footerLinks from "./footer/footer store links.js";
     console.log(footerLinks());
-    document.getElementById("footer_links").innerHTML = footerLinks();
+    document.getElementById("footer").innerHTML = footerLinks();
+
+    import elite from "./elite/elite.js";
+    console.log(elite());
+    document.getElementById("sk_elite").innerHTML = elite();
 
 
 
