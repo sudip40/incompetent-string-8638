@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#sk_member {
+    height: 600px;
+    background-color: #F2F6FF;
+}
+#sk_member1{
+    text-align: center;
+    padding: 15px;
+    padding-top: 110px;
+}
+#sk_member1 span {
+    text-transform: uppercase;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 40px;
+    letter-spacing: -0.5px;
+    font-weight: bold;
+}
+#sk_member1 p {
+    font-family:Arial, Helvetica, sans-serif Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+#sk_slideShow {
+    width: 60%;
+    margin: auto;
+    height: 125px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#sk_slideShow img {
+    border-radius: 10px;
+}
+#sk_member1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:  #FFFFFF;
+    background-color: #00A9FF;
+    border: solid #00A9FF;
+    font-size: 20px;
+    font-family: "Montserrat", Sans-serif;
+    border-radius: 25px;
+    font-weight: 700;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#sk_member1 a:hover {
+    background-color: #FFFFFF;
+    color: #00A9FF;
+}
+
+
+#sk_s{
+    /* border: 1px solid blue; */
+    font-family: "Montserrat", Sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.sk_needs{
+    /* border: 1px solid; */
+    display: flex;
+    width: 61%;
+    margin: auto;
+    height: 100vh;
+}
+.sks_left{
+    /* border: 1px solid red; */
+    padding-left: 10px;
+    height: 300px;
+    margin-top: 250px;
+}
+.sks_left span {
+    /* border: 1px solid; */
+    font-family: "Montserrat", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    width: 400px;
+    margin-bottom: 30px;
+}
+.sks_left p{
+    /* border: 1px solid; */
+    display: block;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2E3339;
+    margin-bottom: 5px;
+}
+.sks_right img{
+    height: 800px;
+}
+.sks_left a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:  #FFFFFF;
+    background-color: #00A9FF;
+    border: solid #00A9FF;
+    font-size: 20px;
+    font-family: "Montserrat", Sans-serif;
+    border-radius: 25px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px ;
+}
+i {
+    /* border: 1px solid; */
+    font-size: 15px;
+    color: black;
+    margin-right: 5px;
+}
+
+
