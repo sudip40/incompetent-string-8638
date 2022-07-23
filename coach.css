@@ -1,0 +1,174 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #3b3c3f;
+}
+p{
+    color:#4c4c4c;
+    font-size: 20px;
+}
+body>p{
+    font-size: 20px;
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    line-height: 35px;
+}
+.trial{
+border: 1px solid #39b7ff;
+background-color: #39b7ff;
+color: white;
+width: fit-content;
+padding: 10px 30px;
+margin: auto;
+margin-top: 40px;
+cursor: pointer;
+}
+.box{
+    width: 62%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.left{
+    width: 48%;
+    padding-top: 30px;
+}
+#firstleft>h4{
+    font-size: 1.5em;
+    margin: -5px;
+    color: #212529;
+}
+#firstleft>p{
+    line-height: 35px;
+}
+#captcha{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 10px;
+    padding: 0px 5px;
+    align-items: center;
+    background-color: #f9f9f9;
+    border:1px solid lightgrey;
+    margin-bottom: 10px;
+}
+.right{
+    width: 50%;
+}
+#firstright>input,#firstright>label{
+    display: block;
+    margin-bottom: 10px;
+}
+#firstright>div>img{
+    width:30%;
+}
+#firstright>input{
+    font-size: 17px;
+    padding: 10px 0px;
+    width: 95%;
+}
+#starthere{
+    border: 3px solid #39b7ff;
+    width: fit-content;
+    padding: 10px 20px;
+    color: #39b7ff;
+}
+#starthere:hover{
+    color: white;
+    background-color: #39b7ff;
+}
+#send{
+    width: 99%;
+    text-align: center;
+    padding: 10px 0px;
+    border: 1px solid #39b7ff;
+    border-radius: 5px;
+    background-color: #39b7ff;
+    color: white;
+    cursor: pointer;
+}
+#send:hover,.trial:hover{
+    background-color: white;
+    color: #39b7ff;
+}
+#area{
+    height: 80px;
+}
+video{
+    width: 100%;
+}
+.headbox{
+    font-size: 50px;
+    color: #39b7ff;
+    margin: 0px;
+}
+.secondheadbox{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#clientleft>p{
+    line-height: 35px;
+}
+#clientright{
+    width: 50%;
+    padding-top: 55px;
+}
+#plansright{
+    width: 55%;
+    padding-right: 50px;
+}
+#plansleft{
+    width: 45%;
+}
+.btn{
+    margin: 0%;
+    margin-top: 50px;
+}
+#plansright>p{
+    line-height: 35px;
+}
+#starthead{
+    font-size: 65px;
+    color: #3B3C3F;
+    margin: 0%;
+    font-weight: 520;
+}
+#startleft{
+    width: 45%;
+}
+#startleft>img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+#startright{
+    width: 53%;
+}
+#startright>p:first-child{
+    font-size: 40px;
+    margin: 0%;
+}
+.small{
+    margin-top: 30px;
+    font-size: 15px;
+}
+#startsecondhead{
+    font-size: 20px;
+}
+#coachlast>h4{
+    font-size: 45px;
+    color: #39b7ff;
+}
+#coachlast{
+    width: 62%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #ecf8ff;
+    padding: 50px 0px;
+}
+#coachlast>h4{
+    margin-bottom: 0%;
+}
