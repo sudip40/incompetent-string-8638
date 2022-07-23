@@ -118,7 +118,7 @@ html{
     padding-bottom: 100px;
     background-color: #F7F9FD;
 }
-#sk_tip p {
+#sk_tip p, #sk_feat p {
     color: #000000;
     font-family: "Montserrat", Sans-serif;
     font-size: 30px;
@@ -333,3 +333,14 @@ html{
         margin-bottom: 35px;
     }
 
+
+
+    #sk_feat {
+        /* border: 1px solid red; */
+        padding: 75px;
+    }
+    #sks_slideshow {
+        /* border: 2px solid green; */
+        width: 65%;
+        margin: auto;
+    }

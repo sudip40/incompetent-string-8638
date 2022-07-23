@@ -55,14 +55,14 @@
             <span>CONNECT WITH OVER 10 MILLION JEFIT MEMBERS</span>
             <p>As the most active workout community, we invite you and your friends to join us and support each other. </p>
             <div id="sk_slideShow">
-                <img src="image1.png" class="sk_image">
-                <img src="image1.png" class="sk_image">
-                <img src="image1.png" class="sk_image">
-                <img src="image1.png" class="sk_image">
-                <img src="image1.png" class="sk_image">
-                <img src="image1.png" class="sk_image">
-                <img src="image1.png" class="sk_image">
-                <img src="image1.png" class="sk_image">
+                <img src="./images/image1.png" id="sk_image">
+                <img src="./images/image1.png" id="sk_image1">
+                <img src="./images/image1.png" id="sk_image2">
+                <img src="./images/image1.png" id="sk_image3">
+                <img src="./images/image1.png" id="sk_image4">
+                <img src="./images/image1.png" id="sk_image5">
+                <img src="./images/image1.png" id="sk_image6">
+                <img src="./images/image1.png" id="sk_image7">
             </div>
             <a href="signup.html" role="button" >JOIN NOW</a>
         </div>
@@ -165,6 +165,13 @@
         </div>
     </div>
 
+    <div id="sk_feat">
+        <p>JEFIT HAS BEEN FEATURED BY</p>
+        <div id="sks_slideshow">
+            <img src="./photos/photo1.jpg" id="sksphoto">
+        </div>
+    </div>
+
     <div id="sk_tip">
         <p>LATEST TIPS FROM JEFIT EXPERTS</p>
         <div id="sk_tips">
@@ -204,77 +211,4 @@
     <a href="###" class="sk_gotopbtn"><i class="fa-solid fa-angle-up"></i></a>
 </body>
 </html>
-<script type="module">
-
-    import footerLinks from "./footer/footer store links.js";
-    // console.log(footerLinks());
-    document.getElementById("footer").innerHTML = footerLinks();
-
-    import navbar from "./navbar/navbar.js";
-    console.log(navbar());
-    document.getElementById("sks_navba").innerHTML = navbar();
-
-    // import elite from "./elite/elite.js";
-    // // console.log(elite());
-    // document.getElementById("sk_elite").innerHTML = elite();
-
-
-
-
-    let images = [
-        "image1.png",
-        "image2.png",
-        "image3.png",
-        "image4.png",
-        "image5.png",
-        "image6.png",
-        "image7.png",
-        "image8.png",
-        "image9.png",
-        "image10.png",
-        "image11.png",
-        "image12.png",
-        "image13.png",
-        "image14.png",
-        "image15.png",
-        "image16.png",
-        "image17.png",
-        "image18.png",
-        "image19.png",
-        "image20.png",
-    ];
-    let i=0;
-    function slideShow() {
-        document.querySelector(".sk_image").src = images[i];
-        if (i<images.length-1){
-            i++;
-        } else {
-            i=0;
-        }
-        console.log(i);
-    }
-    setInterval(slideShow,5000);
-
-
-
-
-
-    const gotopbtn = document.querySelector(".sk_gotopbtn");
-
-    window.addEventListener("scroll", checkHeight);
-
-    function checkHeight() {
-        if (window.scrollY > 200){
-            gotopbtn.style.display = "flex";
-        } else {
-            gotopbtn.style.display = "none";
-        }
-    }
-
-    gotopbtn.addEventListener("click", ()=> {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        })
-    })
-</script>
+<script type="module" src="./homepage.js"></script>
