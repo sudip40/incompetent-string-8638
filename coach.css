@@ -1,13 +1,13 @@
-h1{
+#su>h1{
     font-size: 50px;
     text-align: center;
     color: #3b3c3f;
 }
-p{
+#su>p{
     color:#4c4c4c;
     font-size: 20px;
 }
-body>p{
+#su>p{
     font-size: 20px;
     text-align: center;
     width: 55%;
@@ -171,4 +171,8 @@ video{
 }
 #coachlast>h4{
     margin-bottom: 0%;
+}
+#su{
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
