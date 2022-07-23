@@ -1,0 +1,152 @@
+#background{
+    width: 100%;
+    height: auto;
+    border: 1px solid transparent;
+   
+ 
+background-image: url('https://img.freepik.com/premium-photo/bodybuilder-showing-his-muscles_136403-5541.jpg?size=626&ext=jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+padding-bottom: 100px;
+
+    
+    
+ }
+ #background>img{
+    width: 100%;
+    height: 100%;
+ }
+*{
+
+  margin: 0px;
+  padding: 0px; 
+    font-family: sans-serif;
+   overflow-x: hidden;
+    
+}
+
+#background>div:nth-child(1){
+    /* border: 1px solid red; */
+       width: 150px;
+       height: 60px;
+       margin: auto;
+       margin-top: 50px;
+}
+#background>div:nth-child(1)>img{
+    width: 80%;
+    
+}
+#form{
+    background-color: rgb(235,247,255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+   width: 32%;
+   /* border: 1px solid red; */
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   padding: 30px;
+   
+}
+#form>h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-top: 60px;
+    margin-bottom: -4px;
+   background-color: rgb(235,247,255);
+
+}
+#form>p{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+   background-color: rgb(235,247,255);
+ }
+
+ /* ****Modified start****** */
+#form>#L_action{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: rgb(235,247,255);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    
+    
+}
+#form>#L_action>div{
+    /* background-color: rgb(235,247,255); */
+    justify-content: space-evenly;
+}
+#form>#L_action>div>img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* ****Modified end******  */
+
+
+
+label{
+    background-color: rgb(235,247,255);
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+input[type="text"],input[type="number"],input[type="submit"]{
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* *********** 2nd Modify start******* */
+#L_recap{
+    
+    /* border: 1px solid red; */
+    background-color:rgb(235,247,255) ;
+    margin: 15px 0px 25px 0px;
+}
+#L_recap>#rec{
+    margin-top: 0px;
+}
+#L_recap > a{
+    color: #50b6ff;
+    font-size: 17px;
+    background-color: rgb(235,247,255);
+    margin-left: 200px;
+}
+input[type="checkbox"]{
+    
+    margin: 0px 0px 0px 0px;
+}
+/* ******** 2nd modify end ******* */
+
+
+input[type="submit"]{
+    color: white;
+    background-color: #50b6ff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+}
+#form>#jump_sign{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(235,247,255);
+    margin: 20px 0px 30px 0px
+}
+#form>#jump_sign>a{
+    color: #50b6ff;
+    background-color: rgb(235,247,255);
+}
+#jump_sign+p{
+    color: gray;
+    font-size: 14px;
+}
+
+
