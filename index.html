@@ -17,27 +17,12 @@
     <link rel="stylesheet" href="./JetfitMembers.css">
     <link rel="stylesheet" href="./footer/footer store links.css">
     <link rel="stylesheet" href="./elite/elite.css">
+    <link rel="stylesheet" href="./navbar/nav.css">
 
 </head>
 <body>
                         <!-- day-2 work -->
-    <div id="navbar">
-        <div id="sk_items">
-            <div id="sk_logo">
-                <img src="https://cdn.jefit.com/wp/wp-content/uploads/2021/12/jefit_logo_website_header-3.png">
-            </div>
-            <div id="sk_text">
-                <a href="###" class="sk_des">Get Jefit App</a>
-                <a href="###" class="sk_des">Workout Plans</a>
-                <a href="###" class="sk_des">Exercise Guide</a>
-                <a href="@@@" class="sk_des">Blog</a>
-                <a href="###" class="sk_des">Coach</a>
-                <a href="###" class="sk_des">Elite</a>
-                <a href="###" class="sk_des">Login</a>
-                <a href="###" class="sk_desi">sign up</a> 
-            </div>
-        </div>
-    </div>
+    <div id="sks_navba"></div>
 
     <div id="sk_manage">
         <div id="sk_pura">
@@ -132,19 +117,58 @@
 
     <div id="sk_elite"></div>
 
+    <div id="sk_tip">
+        <p>LATEST TIPS FROM JEFIT EXPERTS</p>
+        <div id="sk_tips">
+            <div class="s1k">
+                <a href="###"><img src="https://cdn.jefit.com/wp/wp-content/uploads/2022/07/man-foam-rolling-athlete-stretches-using-foam-roller-scaled.jpg"></a>
+                <a href="###"><h2>HEALTH BENEFITS SEEN WITH A FEW MINUTES OF FOAM ROLLING</h2></a>
+                <h5>Posted by Michael Wood, CSCSJuly 20, 2022</h5>
+                <a href="###"><h3>A recent article in the New York Times looked at the benefits of using a foam roller. In theory, rolling…</h3></a>
+                <a href="###" class="sk_read">READ MORE</a>
+            </div>
+            <div class="s2k">
+                <a href="###"><img src="https://cdn.jefit.com/wp/wp-content/uploads/2022/07/stronger-young-muscular-caucasian-athlete-practicing-lunges-gym-with-barbell-male-model-doing-strength-exercises-training-his-lower-body-wellness-healthy-lifestyle-bodybuilding-concept-1-scaled.webp"></a>
+                <a href="###"><h2>SOME OF THE BEST BULKING PROGRAMS OFFERED BY JEFIT APP</h2></a>
+                <h5>Posted by Michael Wood, CSCSJuly 18, 2022</h5>
+                <a href="###"><h3>A question came in recently in our Q&A section on the Jefit app regarding best bulking programs. To find this…</h3></a>
+                <a href="###" class="sk_read">READ MORE</a>
+            </div>
+            <div class="s1k">
+                <a href="###"><img src="https://cdn.jefit.com/wp/wp-content/uploads/2022/07/annoyed-woman-covering-her-ears-with-pillows-block-out-snoring-bedroom-scaled.webp"></a>
+                <a href="###"><h2>QUALITY OF SLEEP IS IMPORTANT FOR MUSCLE GROWTH</h2></a>
+                <h5>Posted by Michael Wood, CSCSJuly 15, 2022</h5>
+                <a href="###"><h3>When you end up not getting quality sleep during the night, you typically feel "off" throughout the next day. Not…</h3></a>
+                <a href="###" class="sk_read">READ MORE</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="sk_plan">
+        <span>WANT TO BUILD YOUR OWN WORKOUT PLAN?</span>
+        <p>Customize your workout plan with over 3000 free exercises in Jefit Workout Plan Builder. And easily share with friends.</p>
+        <a href="###">CREATE WORKOUT PLAN</a>
+    </div>
+
     <div id="footer"></div>
+
+    <a href="###" class="sk_gotopbtn"><i class="fa-solid fa-angle-up"></i></a>
 </body>
 </html>
 <script type="module">
 
     import footerLinks from "./footer/footer store links.js";
-    console.log(footerLinks());
+    // console.log(footerLinks());
     document.getElementById("footer").innerHTML = footerLinks();
 
     import elite from "./elite/elite.js";
-    console.log(elite());
+    // console.log(elite());
     document.getElementById("sk_elite").innerHTML = elite();
 
+    import navbar from "./navbar/navbar.js";
+    console.log(navbar());
+    document.getElementById("sks_navba").innerHTML = navbar();
 
 
 

@@ -43,7 +43,6 @@ function footerLinks() {
     <div id="sk_rights">
         <p>Copyright © 2010-2022 Jefit, Inc.</p>
         <p>All Rights Reserved.</p>
-        <a href="###" class="sk_gotopbtn"><i class="fa-solid fa-angle-up"></i></a>
     </div>`;
 }
 

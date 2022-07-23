@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+}
+button {
+    border: 1px solid;
+    display: flex;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    background: #00aeef;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#sk_guide {
+    /* border: 1px solid green; */
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+#sk_guide img {
+    width: 100%;
+}
+.sk_do {
+    /* border: 1px solid; */
+    width: 33%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.sk_do h3 {
+    font-size: 18px;
+    color: #343A40;
+    text-transform: capitalize;
+    text-align: center;
+}
+.sk_do h5 {
+    font-size: 13px;
+    color: #555555;
+    text-align: center;
+}
+#sk_unlock {
+    /* border: 1px solid; */
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 100px;
+}
+a {
+    text-transform: none;
+    cursor: default;
+}

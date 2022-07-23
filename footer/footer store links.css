@@ -85,7 +85,7 @@ background-size: cover;
     justify-content: center;
     color: #d0d1d2;
     border-radius: 5px;
-    font-size: 25px;
+    /* font-size: 100px; */
 }
 .sk_gotopbtn:hover {
     color: gray;

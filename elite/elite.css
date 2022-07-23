@@ -82,12 +82,14 @@ i {
     padding: 15px 30px;
     display: flex;
     justify-content: center;
-    /* text-align: center; */
-    /* align-items: center; */
-    width: 120px;
-    /* margin-right: 65px; */
-    margin-left: 60px;
-    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 140px;
+}
+#sk_3 a {
+    background-color: #39B7FF;
+    color: #FFFFFF;
 }
 #sk_1 span, #sk_2 span, #sk_3 span{
     /* border: 1px solid; */

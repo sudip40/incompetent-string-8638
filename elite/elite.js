@@ -29,8 +29,8 @@ function elite() {
             <h3>$12.99 billed / month</h3>
         </div>
         <div id="sk_3">
-            <h2>Elite Monthly</h2>
-            <h1 class="sk_cl">$12.99</h1>
+            <h2>Elite Yearly</h2>
+            <h1 class="sk_cl">$5.83</h1>
             <h3>per month</h3>
             <span><i class="fa-solid fa-check"></i>All BASIC plan features</span>   <br>
             <span><i class="fa-solid fa-check"></i>No ads</span>      <br>
