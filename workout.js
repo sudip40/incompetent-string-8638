@@ -1,3 +1,14 @@
+import footerLinks from "./footer/footer store links.js";
+    // console.log(footerLinks());
+    document.getElementById("footer").innerHTML = footerLinks();
+
+    import navbar from "./navbar/navbar.js";
+    console.log(navbar());
+    document.getElementById("sks_navba").innerHTML = navbar();
+
+
+
+
 let dat=[ {
     "img_src": "https://cdn.jefit.com/uc/file/0b6a31438722e97f/1.jpg",
     "Name": "Dynamic Stretching Series",

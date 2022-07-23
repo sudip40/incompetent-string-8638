@@ -1,11 +1,34 @@
+import footerLinks from "./footer/footer store links.js";
+    // console.log(footerLinks());
+    document.getElementById("footer").innerHTML = footerLinks();
+
+    import navbar from "./navbar/navbar.js";
+    console.log(navbar());
+    document.getElementById("sks_navba").innerHTML = navbar();
+
+
+
+
 import exercises from "./components/data.js";
 let newexercises=[];
+
 
 for(let i=0;i<12;i++){
     newexercises.push(exercises[i]);
 }
 
-let obj=JSON.parse(localStorage.getItem("exercisedata"))||{};
+let obj=JSON.parse(localStorage.getItem("exercisedata")) || {
+    url:"https://www.jefit.com/images/exercises/800_600/2912.jpg",
+    url1:"https://www.jefit.com/images/exercises/800_600/2913.jpg",
+    url2:"https://www.jefit.com/images/exercises/b3.jpg",
+    name:"Cable Incline Press",
+    mmg:"Chest",
+    omg:"Shoulders",
+    type:"Strength",
+    machine:"Compound",
+    equipment:"Bench",
+    difficulty:"Beginner",
+};
 
 let display=(obj)=>{
     let img1=document.createElement("img");

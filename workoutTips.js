@@ -1,3 +1,13 @@
+import footerLinks from "./footer/footer store links.js";
+    // console.log(footerLinks());
+    document.getElementById("footer").innerHTML = footerLinks();
+
+    import navbar from "./navbar/navbar.js";
+    console.log(navbar());
+    document.getElementById("sks_navba").innerHTML = navbar();
+
+
+
 
 var productsData = [
     {

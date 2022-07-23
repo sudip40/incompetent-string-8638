@@ -100,10 +100,10 @@ display: flex;
     margin-top: 50px;
     
 }
-a{
+/* a{
     text-decoration: none;
 
-}
+} */
 a:hover{
     cursor: pointer;
     color: aqua;

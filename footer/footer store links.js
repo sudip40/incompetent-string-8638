@@ -17,17 +17,17 @@ function footerLinks() {
     <div id="sk_last">
         <div  class="sk_sk">
             <a href="###">Elite Membership</a>  <br>
-            <a href="###">Coach Mode</a>        <br>
-            <a href="###">Sign Up</a>           <br>
-            <a href="###">Login</a>             <br>
+            <a href="coach.html">Coach Mode</a>        <br>
+            <a href="signup.html">Sign Up</a>           <br>
+            <a href="login.html">Login</a>             <br>
         </div>
         <div class="sk_sk">
-            <a href="###">Workout Plans</a>     <br>
-            <a href="###">Exercise Database</a> <br>
+            <a href="workout.html">Workout Plans</a>     <br>
+            <a href="exercise_guide.html">Exercise Database</a> <br>
             <a href="###">Help Center</a>       <br>
         </div>
         <div class="sk_sk">
-            <a href="###">Blog</a>              <br>
+            <a href="blog.html">Blog</a>              <br>
             <a href="###">Facebook</a>          <br>
             <a href="###">Twitter</a>           <br>
             <a href="###">Instagram</a>         <br>

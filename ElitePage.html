@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="./ElitePage.css">
     <link rel="stylesheet" href="./footer/footer store links.css">
     <link rel="stylesheet" href="./elite/elite.css">
+    <link rel="stylesheet" href="./navbar/nav.css">
 </head>
 <body>
+
+    <div id="sks_navba"></div>
+    
     <div id="ElitePage"></div>
 
 
@@ -47,5 +51,9 @@
     import elite from "./elite/elite.js";
     console.log(elite());
     document.getElementById("ElitePage").innerHTML = elite();
+
+    import navbar from "./navbar/navbar.js";
+    console.log(navbar());
+    document.getElementById("sks_navba").innerHTML = navbar();
 
 </script>
