@@ -1,0 +1,185 @@
+.workout1{
+    
+    margin: auto;
+  width: 40%;
+  
+  padding: 10px;
+  
+  
+
+}
+#workoutappend{
+    /* border:1mm solid red; */
+    width: 80%;
+    margin: auto;
+    height: 560px;
+     display: flex; 
+    overflow: hidden; 
+     /* overflow-x: scroll;   */
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+
+}
+.boxmamta{
+    width: 100%;
+    border-radius:20px;
+    height: 240px;
+    margin-top: 20px;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.boxmamta>img{
+    /* border: 1mm solid rebeccapurple; */
+    border-radius:20px 20px 0px 0px ;
+    width:380px;
+    height:fit-content;
+
+}
+.boxmamta>h2{
+    margin-left: 20px;
+}
+
+#manage3{
+    width: 60%;
+    height: 30px;
+    display: flex;
+
+    justify-content: space-between;
+margin: auto;
+
+   
+}
+
+#list1{
+    display: flex;
+
+    justify-content: space-between;
+
+    
+
+    width:50%;
+
+    margin: auto;
+margin-top: 40px;
+text-decoration:underline;
+    
+
+}
+#list1>div>a:hover{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 5px;
+    line-height: 20px;
+    text-decoration: underline;
+   
+   
+    
+}
+
+#list1>div>a{
+    text-decoration-color: aliceblue;
+
+    color: black;
+}
+
+/* table */
+
+#tablelast{
+    border: 1px solid red;
+
+    height: 400px;
+    width: 70%;
+
+    margin: auto;
+}
+
+#linktonext>tr>td,a{
+    text-decoration: none;
+    color:blueviolet;
+}
+#tablelast #mamtamishra{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+
+   
+}
+
+
+
+
+#btn{
+    height: 50px;
+    width: 100%;
+}
+
+/* table */
+
+table>tr>td,img{
+    height: 40px;
+
+    
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.navday1{
+    
+    height: 40px;
+    width: 70%;
+
+    background-color: gray;
+
+    margin: auto;
+
+    margin-top: 50px;
+    
+}
+
+.makebutton{
+    border: 1px solid blue;
+
+    width: 10%;
+    height: 29px;
+}
+
+#desc{
+
+    display: flex;
+
+    gap: 40px;
+
+   
+}
+
+
+
+#imgcenter{
+    margin: auto;
+
+    width:50%;
+    height: 90px;
+
+    border: 1px solid red;
+
+    margin-top: 30px;
+}
+
+
+
+
+
