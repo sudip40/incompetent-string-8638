@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ElitePage.css">
+    <link rel="stylesheet" href="./footer/footer store links.css">
+    <link rel="stylesheet" href="./elite/elite.css">
+</head>
+<body>
+    <div id="ElitePage"></div>
+
+
+    <button>SEND jefit elite Membership as gift</button> 
+    <div id="sk_guide">
+        <div class="sk_do">
+            <img src="https://www.jefit.com/images/elite/webf_1.png" >
+            <h3>expert crafted workouts</h3>
+            <h5>Access to our premium plans, Ftom strength training to bodyweight workouts.</h5>
+        </div>
+        <div class="sk_do">
+            <img src="https://www.jefit.com/images/elite/webf_2.png" >
+            <h3>HD Video Guides</h3>
+            <h5>Never worry about what exercise to do or how to ger the perfect form.</h5>
+        </div>
+        <div class="sk_do">
+            <img src="https://www.jefit.com/images/elite/webf_3.png" >
+            <h3>Progress Reports</h3>
+            <h5>Ger weekly reports on progress and see how you're progressing.</h5>
+        </div>
+    </div>
+    <div id="sk_unlock">
+        <a href="###"><img src="./sk_unlock.jpg" ></a> 
+    </div>
+
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+    
+    import footerLinks from "./footer/footer store links.js";
+    console.log(footerLinks())
+    document.getElementById("footer").innerHTML = footerLinks();
+
+    import elite from "./elite/elite.js";
+    console.log(elite());
+    document.getElementById("ElitePage").innerHTML = elite();
+
+</script>
