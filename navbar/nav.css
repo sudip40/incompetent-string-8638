@@ -21,10 +21,7 @@
 #sk_logo img{
     /* border: 1px solid; */
     margin-left: -60px;
-    /* margin-right: 70px; */
-    /* margin-top: 10px; */
-    /* margin-bottom: 10px; */
-    /* padding: -10px; */
+
     display: flex;
     align-items: center;
     height: 100px;

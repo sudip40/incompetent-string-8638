@@ -11,7 +11,7 @@ function elite() {
             <span><i class="fa-solid fa-check"></i>1400+ exercises library</span>    <br>
             <span><i class="fa-solid fa-check"></i>Body stats tracking tools</span>  <br>
             <span><i class="fa-solid fa-check"></i>Support interval training</span>  <br>
-            <a href="####" role="button">FREE DOWNLOAD</a>
+            <a href="####" role="button" class="hola">FREE DOWNLOAD</a>
         </div>
         <div id="sk_2">
             <h2>Elite Monthly</h2>
@@ -25,12 +25,12 @@ function elite() {
             <span><i class="fa-solid fa-check"></i>Exercise tips from JEFIT experts</span>  <br>
             <span><i class="fa-solid fa-check"></i>Premium workout plans</span>  <br>
             <span><i class="fa-solid fa-check"></i>More...</span>  <br>
-            <a href="####" role="button">LEARN MORE</a>
+            <a href="####" role="button" class="hola">LEARN MORE</a>
             <h3>$12.99 billed / month</h3>
         </div>
         <div id="sk_3">
-            <h2>Elite Yearly</h2>
-            <h1 class="sk_cl">$5.83</h1>
+            <h2>Elite Monthly</h2>
+            <h1 class="sk_cl">$12.99</h1>
             <h3>per month</h3>
             <span><i class="fa-solid fa-check"></i>All BASIC plan features</span>   <br>
             <span><i class="fa-solid fa-check"></i>No ads</span>      <br>
@@ -42,7 +42,7 @@ function elite() {
             <span><i class="fa-solid fa-check"></i>More...</span>  <br>
             <span><i class="fa-solid fa-check"></i>
                 Save 55%</span>  <br>
-            <a href="####" role="button">LEARN MORE</a>
+            <a href="####" role="button" class="hola">LEARN MORE</a>
             <h3>$69.99 billed / year</h3>
         </div>
     </div>

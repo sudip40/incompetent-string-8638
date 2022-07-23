@@ -16,7 +16,7 @@ function footerLinks() {
 </div>
     <div id="sk_last">
         <div  class="sk_sk">
-            <a href="###">Elite Membership</a>  <br>
+            <a href="ElitePage.html">Elite Membership</a>  <br>
             <a href="coach.html">Coach Mode</a>        <br>
             <a href="signup.html">Sign Up</a>           <br>
             <a href="login.html">Login</a>             <br>
