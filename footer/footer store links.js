@@ -28,15 +28,15 @@ function footerLinks() {
         </div>
         <div class="sk_sk">
             <a href="blog.html">Blog</a>              <br>
-            <a href="###">Facebook</a>          <br>
-            <a href="###">Twitter</a>           <br>
-            <a href="###">Instagram</a>         <br>
+            <a href="https://www.facebook.com/jefitapp">Facebook</a>          <br>
+            <a href="https://twitter.com/jefitinc">Twitter</a>           <br>
+            <a href="https://www.instagram.com/jefitapp/">Instagram</a>         <br>
         </div>
         <div class="sk_sk">
-            <a href="###">Privacy Policy</a>    <br>
-            <a href="###">Terms of Use</a>      <br>
-            <a href="###">IP/DMCA Notices</a>   <br>
-            <a href="###">Press & Media</a>     <br>
+            <a href="Privacy policy.html">Privacy Policy</a>    <br>
+            <a href="Terms of service.html">Terms of Use</a>      <br>
+            <a href="Refund policy.html">Refund Policy</a>   <br>
+            <a href="Privacy policy.html">Privacy policy</a>     <br>
         </div>
         
     </div>
