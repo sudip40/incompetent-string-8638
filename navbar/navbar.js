@@ -26,7 +26,7 @@ function navbar() {
                 <li class="sk01"><a href="exercise_guide.html">Exercise Guide</a> </li>
                 <li class="sk02"><a href="blog.html">Blog</a> </li>
                 <li class="sk02"><a href="coach.html">Coach</a> </li>
-                <li class="sk02"><a href="###">Elite</a> </li>
+                <li class="sk02"><a href="ElitePage.html">Elite</a> </li>
                 <li class="sk02"><a href="login.html">Login</a> </li>
                 <!-- <li class="sk02" id="sk_desi"><a href="signup.html">sign up</a></li> -->
             </ul>
