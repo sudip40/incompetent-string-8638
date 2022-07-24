@@ -1,0 +1,18 @@
+    import footerLinks from "./footer/footer store links.js";
+    // console.log(footerLinks());
+    document.getElementById("footer").innerHTML = footerLinks();
+
+    import navbar from "./navbar/navbar.js";
+    console.log(navbar());
+    document.getElementById("sks_navba").innerHTML = navbar();
+
+
+
+    <link rel="stylesheet" href="./navbar/nav.css">
+    <link rel="stylesheet" href="./footer/footer store links.css">
+
+
+    <div id="sks_navba"></div>
+
+    <div id="footer"></div>
+
