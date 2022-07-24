@@ -1,0 +1,346 @@
+html{
+    overflow-x: hidden;
+}
+#sk_manage {
+    background-image: url("./caucasian-man-practicing-weightlifting-gym.jpg") ;
+    background-color: #0C0C0C;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#sk_pura{
+    height: 100%;
+    width: 61%;
+    margin: auto;
+    display: flex;
+}
+#sk_left p{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+#sk_left h2{
+    color: #FFFFFF;
+    font-family: "DM Sans", Sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+#sk_right, #sk_left {
+    margin-top: 18%;
+    height: 496px;
+    width: 596px;
+}
+#sk_right img{
+    height: 100%;
+}
+#sk_connect{
+    display: flex;
+    padding-right: 20px;
+}
+#sk_store{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#sk_store img:first-child {
+    margin-bottom: 20px;
+}
+
+
+#sk_plan{
+    /* border: 1px solid; */
+    width: 100%;
+    /* height: 500px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#sk_plan span{
+    /* border: 1px solid red; */
+    font-family: "Montserrat", Sans-serif;
+    display: block;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+#sk_plan p {
+    /* border: 1px solid red; */
+    width: 60%;
+    display: block;
+    text-align: center;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+/* #sk_plan a {
+    border: 1px solid red;
+} */
+#sk_plan a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:  #FFFFFF;
+    background-color: #00A9FF;
+    border: solid #00A9FF;
+    font-size: 20px;
+    font-family: "Montserrat", Sans-serif;
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 15px 30px;
+    width: 350px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#sk_plan a:hover {
+    background-color: #FFFFFF;
+    color: #00A9FF;
+}
+
+
+
+
+#sk_tip{
+    /* border: 1px solid red; */
+    height: 90vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F7F9FD;
+}
+#sk_tip p, #sk_feat p {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#sk_tips {
+    /* border: 1px solid red; */
+    height: 81%;
+    display: flex;
+    width: 61%;
+    margin: auto;
+}
+.s1k {
+    /* border: 1px solid green; */
+    height: 550px;
+    width: 360px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+.s1k img, .s2k img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.s1k h2, .s2k h2 {
+    /* border: 1px solid; */
+    display: block;
+    padding: 15px 20px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #1C2735;
+    text-transform: uppercase;
+}
+.s1k h5, .s2k h5 {
+    color: #B6B6B6;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+.s1k h3, .s2k h3 {
+    color: #5A5A5A;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    font-weight: 500;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+.sk_read {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00A9FF;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: "Montserrat", Sans-serif;
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 160px;
+}
+.s2k{
+    /* border: 1px solid green; */
+    width: 360px;
+    height: 600px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* a {
+    text-decoration: none;
+} */
+
+
+
+
+
+#sk_all {
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn.jefit.com/wp/wp-content/uploads/2022/03/young-healthy-man-athlete-doing-exercises-pull-ups-gym-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    #sk_all p{
+        color: #FFFFFF;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 100px;
+    }
+    #sk_plans{
+        /* border: 1px solid red; */
+        height: 70%;
+        display: flex;
+        width: 61%;
+        margin: auto;
+    }
+    #sk_1{
+        /* border: 1px solid green; */
+        width: 350px;
+        background-color: #FFFFFF;
+        height: 80%;
+        margin-top: 22px;
+        border-radius: 20px;
+        padding: 30px;
+        margin-left: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    #sk_2{
+        /* border: 1px solid green; */
+        width: 350px;
+        margin-left: 20px;
+        background-color: #FFFFFF;
+        height: 95%;
+        margin-top: 22px;
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    #sk_3{
+        /* border: 1px solid green; */
+        width: 350px;
+        margin-left: 20px;
+        background-color: #FFFFFF;
+        height: 100%;
+        margin-top: 22px;
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    
+    
+    
+    
+    i {
+        /* border: 1px solid; */
+        font-size: 15px;
+        color: black;
+        margin-right: 5px;
+    }
+    .hola, .hola, .hola{
+        /* border: 1px solid; */
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #E1F1FF;
+        color: #39B7FF;
+        font-size: 14px;
+        font-family: "Montserrat", Sans-serif;
+        border-radius: 25px;
+        font-weight: 700;
+        padding: 15px 30px;
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+        /* align-items: center; */
+        width: 200px;
+        /* margin-right: 65px; */
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    #sk_1 span, #sk_2 span, #sk_3 span{
+        /* border: 1px solid; */
+        font-family: "DM Sans", Sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #54565F;
+        display: block;
+        margin-bottom: -15px;
+    }
+    #sk_1 .sk_cl, #sk_2 .sk_cl, #sk_3 .sk_cl {
+        text-align: center;
+        color: #39B7FF;
+        font-size: 50px;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    #sk_1 h2, #sk_2 h2, #sk_3 h2 {
+        color: #272e36;
+        font-family: "DM Sans", Sans-serif;
+        /* font-size: 20px; */
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    #sk_1 h3, #sk_2 h3, #sk_3 h3 {
+        /* border: 1px solid; */
+        color: #A1A1A1;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        /* margin-top: -5px; */
+        margin-bottom: 35px;
+    }
+
+
+
+    #sk_feat {
+        /* border: 1px solid red; */
+        padding: 75px;
+    }
+    #sks_slideshow {
+        /* border: 2px solid green; */
+        width: 65%;
+        margin: auto;
+    }
