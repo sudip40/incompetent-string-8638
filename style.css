@@ -1,0 +1,200 @@
+h1,
+p {
+    text-align: center;
+}
+
+#mainimg {
+    height: 630px;
+    width: fit-content;
+    margin: auto;
+}
+
+#excersise {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
+#humanbody {
+    display: block;
+    margin: auto;
+}
+
+.muscle{
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #2f9dd8;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 12px;
+}
+
+#triceps {
+    top: -74%;
+    left: 15.5%;
+}
+
+#biceps {
+    top: -64%;
+    left: 15.5%;
+}
+
+#back {
+    top: -52%;
+    left: 15.5%;
+}
+
+#glutes {
+    top: -40%;
+    left: 15.5%;
+}
+
+#lowerlegs {
+    top: -31%;
+    left: 15.5%;
+}
+
+#shoulders {
+    top: -102.5%;
+    left: 77%;
+}
+
+#chest {
+    top: -90.5%;
+    left: 77%;
+}
+
+#forearms {
+    top: -81.5%;
+    left: 77%;
+}
+
+#abs {
+    top: -73.5%;
+    left: 77%;
+}
+
+#upperlegs {
+    top: -58.5%;
+    left: 77%;
+}
+
+#cardio {
+    top: -61%;
+    left: 45%;
+}
+
+#viewallexercises {
+    top: -52%;
+    left: 41%;
+}
+
+.muscle:hover,#tenth>button:hover {
+    text-decoration: solid;
+    text-decoration-color: white;
+    text-decoration-line: underline;
+    background-color: #1e6890;
+    cursor: pointer;
+}
+
+#inpts {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#excersise {
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+#excersise>div>img {
+    width: 100%;
+}
+
+#excersise>div:hover {
+    cursor: pointer;
+}
+
+.name {
+    color: #2f9dd8;
+}
+
+.name:hover {
+    text-decoration: solid;
+    text-decoration-color: #2f9dd8;
+    text-decoration-line: underline;
+}
+
+#excersise>div>p {
+    padding: 0px;
+    margin: 0px;
+}
+
+#btn {
+    left: 0%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 7px 10px;
+}
+
+.p {
+    font-size: 25px;
+    color: #5a5a5a;
+}
+
+#musclespart,#typespart {
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 20px; */
+    color: #5a5a5a;
+}
+#second{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    column-gap: 20px;
+}
+
+#second>div:hover{
+    color: #2f9dd8;
+    text-decoration: solid;
+    text-decoration-line: underline;
+    text-decoration-color: #2f9dd8;
+}
+#first,#third{
+height: fit-content;
+margin-top: 5%;
+}
+
+#typespart{
+    margin-top: 10px;
+}
+#sixth,#eighth,#tenth{
+    margin-top: 2%;
+}
+#tenth>input{
+    width: 350px;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+#tenth>button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+    background-color:#2f9dd8;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

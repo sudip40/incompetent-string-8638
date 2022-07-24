@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#makeitcenter{
+    margin: auto;
+
+    height:auto;
+    width: 80%;
+
+}
+#actualdivforflex{
+    display: flex;
+
+    gap: 30px;
+}
+#twodic{
+    width: 30%;
+}
+#maintableboth{
+    border: 1px solid  black;
+    width: 100%;
+    padding-bottom: 30px;
+    height: auto;
+    padding-left: 20px;
+    
+}
+
+#maintableboth>div> p:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+
+    color:teal;
+
+}
+.t1head{
+    margin-top: 10px;
+    margin-left: -10px;
+    color: rgb(173, 47, 89);
+    font-weight: bold;
+}
+#secandtable{
+    border: 1px solid black;
+    width: 90%;
+   height: auto;
+   padding-bottom: 30px;
+   padding-left: 20px;
+   padding-right: 10px;
+    margin-top: 60px;
+    line-height: 22px;
+}
+#secandtable>p{
+justify-content: space-between;
+display: flex;
+}
+
+#secandtable> p:hover{
+    
+    color:teal;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn{
+
+    
+    width: 105%;
+    padding: 30px;
+    text-align: left;
+    
+    font-weight: 600;
+    margin-left: -10px;
+}
+#socilmedia{
+    display: flex;
+   
+    gap: 20px;
+}
+.makebutton{
+    margin-top: 10px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: rgb(66, 143, 221);
+    color: white;
+
+    border-style: none;
+
+}
+.navday1{
+    
+    padding: 15px;
+    height: auto;
+    width: 86%;
+    font-weight: 800;
+    background-image: linear-gradient(rgb(205, 205, 205), rgba(255, 255, 255, 0.747));
+
+    margin: auto;
+
+    margin-top: 50px;
+    
+}
+/* a{
+    text-decoration: none;
+
+} */
+a:hover{
+    cursor: pointer;
+    color: aqua;
+}
+#mamtanext{
+    width: 100%;
+
+
+}
+#mamtanext>div{
+    width: 100%;
+    height: auto;
+  
+}
+#mamtanext>div>img{
+   width: 100%;
+   height: fit-content;
+}
+
+#tablelast{
+ 
+
+    height: 400px;
+    width: 90%;
+
+    margin: auto;
+}
+#tablelast #mamtamishra{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+
+   
+}
+
+table>tr>td,img{
+    height: 40px;
+
+    
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

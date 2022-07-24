@@ -1,3 +1,15 @@
+import footerLinks from "./footer/footer store links.js";
+    // console.log(footerLinks());
+    document.getElementById("footer").innerHTML = footerLinks();
+
+    import navbar from "./navbar/navbar.js";
+    console.log(navbar());
+    document.getElementById("sks_navba").innerHTML = navbar();
+
+
+
+
+
 var productsData = [
     {
       "image_url": "https://cdn.jefit.com/wp/wp-content/uploads/jupiterx/images/young-ripped-man-bodybuilder-with-perfect-abs-shoulders-biceps-triceps-chest-posing-with-dumbbell-scaled-2e9a2a7.jpg",
