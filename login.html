@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEFIT Signin</title>
+
+    <link rel="stylesheet" href="login.css">
+    
+     
+</head>
+<body>
+    <div id="background">
+      
+        <div>
+          <img src="https://www.jefit.com/images/jefit_logo_website_signuplogin.svg" alt="">
+        </div>
+  
+        <div id="signup">
+          <form action="" id="form">
+              <h1>LOG IN</h1>
+            
+              <label for="">Username or Email</label>
+              <input type="text" id="email" placeholder="Username or Email"/>
+              <label for="">Password</label>
+              <input type="number" id="password" placeholder="Password">
+              
+               <div id="L_recap">
+                    <label id="rec">Remember Me</label>
+                    <input type="checkbox" id="L_checkbox" placeholder="">
+                    <a href="./forgot.html">Forgot Password?</a>
+              </div>
+              <input type="submit" id="submit" value="LOG IN">
+
+              <!-- ************* -->
+
+              <P>Or continue with</P>
+              <div id="L_action">
+                  <div>
+                      <img src="https://www.jefit.com/images/rg_google.svg" alt="">
+                  </div>
+                  <div>
+                      <img src="https://www.jefit.com/images/rg_fb.svg" alt="">
+                  </div>
+                  <div>
+                      <img src="https://www.jefit.com/images/rg_apple.svg" alt="">
+                  </div>
+              </div>
+
+              <!-- ************** -->
+
+
+              <div id="jump_sign">
+                <label for="">New to JEFIT?</label>
+                <a href="signup.html">Create an account.</a>
+              </div>
+  
+               
+  
+          </form>
+  
+        </div>
+            
+  
+      </div>
+</body>
+</html>
+
+<script src="login.js">
+    // let userArr = JSON.parse(localStorage.getItem('signD')) || [];
+    // document.querySelector('form').addEventListener('submit', loginFun);
+
+    // function loginFun(event){
+    //   event.preventDefault();
+
+    //   let loginobj = {
+    //     l_email : document.querySelector('#email').value,
+    //     l_password : document.querySelector('#password').value,
+
+    //   };
+
+    //   var flag = false;
+    //   for(var i=0; i<userArr.length; i++){
+
+    //     if(userArr[i].email == loginobj.l_email && userArr[i].password == loginobj.l_password)
+    //     {
+    //       flag = true;
+    //       alert("Authentication successful!");
+    //       window.location.href="redirect.html";
+    //     }
+    //   }
+    //   if(flag == false){
+    //     alert('Authentication failed!');
+    //   }
+    // }
+</script>

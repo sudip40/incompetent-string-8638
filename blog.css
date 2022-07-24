@@ -28,9 +28,12 @@ h1
         border:1px solid #3596FF;
         text-decoration:none;
         margin-left:20px;
-        padding:10px 10px 5px 10px;
+        padding:0px 10px 5px 10px;
         margin-top:50px;
         font-family: "Montserrat", Sans-serif;
+        /* display: flex; */
+        /* text-align: center; */
+        /* justify-items: center; */
     
     }
     #nav>a:hover{
@@ -45,11 +48,11 @@ h1
     #exp{
         display: flex;
         justify-content: center;
-        margin-top:30px;
+        margin-top:50px;
     }
     #exp>a{
 
-        height:30px;
+        /* height:30px;
         width:auto;
         font-size: 17px;
         color:#3596FF;
@@ -58,6 +61,18 @@ h1
         border:1px solid #3596FF;
         text-decoration:none;
         padding:10px 10px 5px 10px;
+        font-family: "Montserrat", Sans-serif; */
+        height:30px;
+        width:auto;
+        font-size: 17px;
+        color:#3596FF;
+        background-color: white;
+        border-radius: 20px;
+        border:1px solid #3596FF;
+        text-decoration:none;
+        margin-left:20px;
+        padding:0px 10px 5px 10px;
+        /* margin-top:50px; */
         font-family: "Montserrat", Sans-serif;
     
     }
@@ -111,7 +126,7 @@ h1
     }
         #nav1>a{
     
-            height:30px;
+            /* height:30px;
             width:auto;
             font-size: 17px;
             color:#3596FF;
@@ -122,7 +137,19 @@ h1
             margin-left:20px;
             padding:10px 10px 5px 10px;
             margin-top:50px;
-            font-family: "Montserrat", Sans-serif;
+            font-family: "Montserrat", Sans-serif; */
+            height:30px;
+        width:auto;
+        font-size: 17px;
+        color:#3596FF;
+        background-color: white;
+        border-radius: 20px;
+        border:1px solid #3596FF;
+        text-decoration:none;
+        margin-left:20px;
+        padding:0px 10px 5px 10px;
+        margin-top:50px;
+        font-family: "Montserrat", Sans-serif;
         
         }
         #nav1>a:hover{
@@ -143,7 +170,7 @@ h1
     }
         #nav2>a{
     
-            height:30px;
+            /* height:30px;
             width:auto;
             font-size: 17px;
             color:#3596FF;
@@ -154,7 +181,19 @@ h1
             margin-left:20px;
             padding:10px 10px 5px 10px;
             margin-top:50px;
-            font-family: "Montserrat", Sans-serif;
+            font-family: "Montserrat", Sans-serif; */
+            height:30px;
+        width:auto;
+        font-size: 17px;
+        color:#3596FF;
+        background-color: white;
+        border-radius: 20px;
+        border:1px solid #3596FF;
+        text-decoration:none;
+        margin-left:20px;
+        padding:0px 10px 5px 10px;
+        margin-top:50px;
+        font-family: "Montserrat", Sans-serif;
         
         }
         #nav2>a:hover{
@@ -174,7 +213,7 @@ h1
     }
         #nav3>a{
     
-            height:30px;
+            /* height:30px;
             width:auto;
             font-size: 17px;
             color:#3596FF;
@@ -185,7 +224,19 @@ h1
             margin-left:20px;
             padding:10px 10px 5px 10px;
             margin-top:50px;
-            font-family: "Montserrat", Sans-serif;
+            font-family: "Montserrat", Sans-serif; */
+            height:30px;
+        width:auto;
+        font-size: 17px;
+        color:#3596FF;
+        background-color: white;
+        border-radius: 20px;
+        border:1px solid #3596FF;
+        text-decoration:none;
+        margin-left:20px;
+        padding:0px 10px 5px 10px;
+        margin-top:50px;
+        font-family: "Montserrat", Sans-serif;
         
         }
         #nav3>a:hover{
@@ -205,7 +256,7 @@ h1
     }
         #nav4>a{
     
-            height:30px;
+            /* height:30px;
             width:auto;
             font-size: 17px;
             color:#3596FF;
@@ -216,7 +267,19 @@ h1
             margin-left:20px;
             padding:10px 10px 5px 10px;
             margin-top:50px;
-            font-family: "Montserrat", Sans-serif;
+            font-family: "Montserrat", Sans-serif; */
+            height:30px;
+        width:auto;
+        font-size: 17px;
+        color:#3596FF;
+        background-color: white;
+        border-radius: 20px;
+        border:1px solid #3596FF;
+        text-decoration:none;
+        margin-left:20px;
+        padding:0px 10px 5px 10px;
+        margin-top:50px;
+        font-family: "Montserrat", Sans-serif;
         
         }
         #nav4>a:hover{
@@ -236,7 +299,7 @@ h1
     }
         #nav5>a{
     
-            height:30px;
+            /* height:30px;
             width:auto;
             font-size: 17px;
             color:#3596FF;
@@ -247,7 +310,19 @@ h1
             margin-left:20px;
             padding:10px 10px 5px 10px;
             margin-top:50px;
-            font-family: "Montserrat", Sans-serif;
+            font-family: "Montserrat", Sans-serif; */
+            height:30px;
+        width:auto;
+        font-size: 17px;
+        color:#3596FF;
+        background-color: white;
+        border-radius: 20px;
+        border:1px solid #3596FF;
+        text-decoration:none;
+        margin-left:20px;
+        padding:0px 10px 5px 10px;
+        margin-top:50px;
+        font-family: "Montserrat", Sans-serif;
         
         }
         #nav5>a:hover{
@@ -273,10 +348,12 @@ h1
                  background-color: transparent;
                 line-height: 1;
                 box-sizing: border-box;
-                margin-left: 550px;
+                margin-left: 750px;
                 background-color:rgb(203, 227, 244) ;
                 margin-top:30px;
                 width:400px;
+                /* display: flex;
+                justify-content: center; */
         } 
      /* workoutTips.html related css */
       #nav8{
@@ -285,7 +362,7 @@ h1
                              }
      #nav8>a{
     
-            height:30px;
+            /* height:30px;
             width:auto;
             font-size: 17px;
             color:#3596FF;
@@ -296,7 +373,19 @@ h1
             margin-left:20px;
             padding:10px 10px 5px 10px;
             margin-top:50px;
-            font-family: "Montserrat", Sans-serif;
+            font-family: "Montserrat", Sans-serif; */
+            height:30px;
+        width:auto;
+        font-size: 17px;
+        color:#3596FF;
+        background-color: white;
+        border-radius: 20px;
+        border:1px solid #3596FF;
+        text-decoration:none;
+        margin-left:20px;
+        padding:0px 10px 5px 10px;
+        margin-top:50px;
+        font-family: "Montserrat", Sans-serif;
         }
      #nav8>a:hover{
             background-color:#3596FF ;
@@ -310,7 +399,7 @@ h1
         }
         #exp1>a{
     
-            height:30px;
+            /* height:30px;
             width:auto;
             font-size: 17px;
             background-color:#3596FF;
@@ -320,7 +409,19 @@ h1
             text-decoration:none;
             padding:10px 10px 5px 10px;
             font-family: "Montserrat", Sans-serif;
-        
+         */
+         height:30px;
+        width:auto;
+        font-size: 17px;
+        color:#3596FF;
+        background-color: white;
+        border-radius: 20px;
+        border:1px solid #3596FF;
+        text-decoration:none;
+        margin-left:20px;
+        padding:0px 10px 5px 10px;
+        /* margin-top:50px; */
+        font-family: "Montserrat", Sans-serif;
         }
         #exp1>a:hover{
            
