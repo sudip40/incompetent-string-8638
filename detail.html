@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="detail.css">
     <title>Detail</title>
+    <link rel="stylesheet" href="./footer/footer store links.css">
+    <link rel="stylesheet" href="./navbar/nav.css">
 </head>
 <body>
+
+  <div id="sks_navba"></div>
+
     <div id="detail">
     <h1>Some of the Best Bulking Programs Offered by Jefit App</h1>
     <img src="https://cdn.jefit.com/wp/wp-content/uploads/2022/07/stronger-young-muscular-caucasian-athlete-practicing-lunges-gym-with-barbell-male-model-doing-strength-exercises-training-his-lower-body-wellness-healthy-lifestyle-bodybuilding-concept-1-scaled.webp" alt="">
@@ -76,7 +81,18 @@
        
         
      </div>
+
+     <div id="footer"></div>
 </div>
     
 </body>
 </html>
+<script type="module">
+  import footerLinks from "./footer/footer store links.js";
+    // console.log(footerLinks());
+    document.getElementById("footer").innerHTML = footerLinks();
+
+    import navbar from "./navbar/navbar.js";
+    console.log(navbar());
+    document.getElementById("sks_navba").innerHTML = navbar();
+</script>
