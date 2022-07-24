@@ -1,14 +1,3 @@
-import navbar from "./navbar/navbar.js";
-    console.log(navbar());
-    document.getElementById("sks_navba").innerHTML = navbar();
-
-
-    import footerLinks from "./footer/footer store links.js";
-    // console.log(footerLinks());
-    document.getElementById("footer").innerHTML = footerLinks();
-
-
-
 
  var productsData = [
     {
@@ -179,9 +168,10 @@ import navbar from "./navbar/navbar.js";
 
     var read =document.createElement("h4");
     read.innerText=elem.read;
-     read.addEventListener('click', function(){
+    read.addEventListener('click', function(){
          fun()
       }) 
+    
 
     box.append(imag,cata,nam,detail,read)
     document.querySelector("#container").append(box);
@@ -192,6 +182,7 @@ import navbar from "./navbar/navbar.js";
 
    renderProducts()
 
-function fun(){
+
+   function fun(){
     window.location.href = "detail.html"  
   }
