@@ -8,7 +8,7 @@ Sudhanshu Sharma(Manager)[Sudhanshu894]                                     {sud
 
 1. Sudip Karmakar(fw19_0094)(Team Lead) : [Exercise Guide , Coach]          {karmakar.sudip40@gmail.com}
 
-2. Deepak Soni(fw18_1034) : [Login , SignUp]                                {sonid5615@gmail.com}
+2. Deepak Soni(fw18_1034) : [Login , SignUp, Redirect]                                {sonid5615@gmail.com}
 
 3. Sushant Kumar(fw18_0619): [Homepage, Navbar, Header, Footer, Elite]      {sushantonly961@gmail.com}
 
